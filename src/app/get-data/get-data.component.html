@@ -1,0 +1,21 @@
+<style>
+  body {font-family: "Times New Roman", Georgia, Serif;}
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 2px;
+  }
+</style>
+<div class="w3-row w3-padding-64" id="about">
+  <div class="w3-col m6 w3-padding-large w3-hide-small">
+    <img src={{datas.url}} class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+  </div>
+
+  <div class="w3-col m6 w3-padding-large">
+  <h1 class="w3-center">I recommend {{datas.city}} for your next vacation</h1><br>
+  <h5 class="w3-center">it will be {{datas.temperature}}°F on  {{datas.date[1]}}, {{datas.date[0]}}, {{datas.date[2]}}</h5>
+  <p class="w3-large">Today, we found {{datas.city}} to the the place to be within the next week. Based on weekly forecast's for five cities, we believe this to be the best location to get away from the graugy Boston weather.</p>
+  <p class="w3-large">We found you flight information to be able to enjoy {{datas.city}} at its prime temperature for the week. Currently, a one-way ticket to {{datas.city}} from Boston, MA is <span class="w3-tag w3-light-grey">${{datas.price}}</span> that will always depart one day before to make sure you're there when the skies are perfect.</p>
+</div>
+</div>
+
+

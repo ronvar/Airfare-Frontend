@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  body {font-family: "Times New Roman", Georgia, Serif;}
+  h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Wealthy Vacation Advisor</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Locations</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:800px" id="home">
+  <img class="w3-image" src="https://cdn.shopify.com/s/files/1/0227/2953/files/Aviation-UnmarkedJet_resized02.jpg?11654799975116125852" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">taking you where the sun goes.</h1>
+  </div>
+</header>
+s
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+
+  <router-outlet></router-outlet>
+  <hr>
+
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Locations I recommend</h1><br>
+
+      <h4>Los Angeles, California</h4>
+      <p class="w3-text-grey">In L.A., every neighborhood sets a different scene. Eclectic, progressive, trendy, laid back or retro, there’s a signature locale ready to host your next only-in-L.A. moment.</p>
+
+      <h4>New York City, New York</h4>
+      <p class="w3-text-grey">In NYC, what you see is what you get. This town celerates diversity, hustle, heart, and the stories it inspires are souvenirs for he genuine, spirited, and proud.</p>
+
+      <h4>Miami, Florida</h4>
+      <p class="w3-text-grey">Miami offers multiple enticements for everyone: The trendy nightlife of South Beach, bejeweled by the eye candy of the Art Deco district.</p>
+
+      <h4>New Orleans, Louisiana</h4>
+      <p class="w3-text-grey">Whether this is your first time to New Orleans or you’re a seasoned visitor, the city’s infectious spirit is sure to invigorate, captivate and motivate you to jump in and see and do so much.</p>
+
+      <h4>San Francisco, California</h4>
+      <p class="w3-text-grey">San Francisco is home to a little bit of everything. Whether you’re a first time visitor or a long-time local, San Francisco's Golden Gates welcome all.</p>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://render.fineartamerica.com/images/rendered/default/poster/6.375/8.000/break/images-medium-5/golden-gate-bridge-nastasia-cook.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1>
+    <p>I give you my personal recommendations for locations to travel to within the next week. I understand money is no object and you're current temperature leaves a lot to be desired at the moment. Do not hesitate to contact me.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Ronald Vargas, 1 Silber Way, Boston MA 02115</b></p>
+    <p>You can also contact me by phone (909)204-9615 or email rvar@bu.edu.</p>
+  </div>
+
+  <!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="http://www.bu.edu" title="BUCS" target="_blank" class="w3-hover-text-green">Boston University Department of MongoDBs</a></p>
+</footer>
+
+</body>
+</html>
+
